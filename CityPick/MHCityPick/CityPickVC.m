@@ -24,12 +24,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"城市选择";
-    [self getData];
+    [self getData:nil];
     [self initIndexList];
     [self creatView];
 }
 
-- (void)getData {
+- (void)getData:(NSDictionary *)dataDictionary {
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"citydict" ofType:@"plist"];
     NSDictionary *cityDict = [[NSDictionary alloc]initWithContentsOfFile:plistPath];
     self.tableViewDic = [cityDict copy];

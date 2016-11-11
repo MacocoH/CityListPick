@@ -21,6 +21,8 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     ViewController *view = [[ViewController alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:view];
+    UINavigationBar *bar = [UINavigationBar appearance];
+     bar.barTintColor = [UIColor whiteColor];
     self.window.rootViewController = navi;
     [self.window makeKeyAndVisible];
     
