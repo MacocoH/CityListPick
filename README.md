@@ -1,5 +1,8 @@
 # CityListPick    
-![](https://github.com/MacocoH/CityListPick/blob/master/Screen.gif)   
+![](https://github.com/MacocoH/CityListPick/blob/master/ScreenShot/one.png) 
+![](https://github.com/MacocoH/CityListPick/blob/master/ScreenShot/two.png)   
+![](https://github.com/MacocoH/CityListPick/blob/master/ScreenShot/three.png)   
+
 城市选择列表，其中包括定位城市和热门城市以及城市列表    
 定位城市和热门城市根据实际情况传入    
 城市列表读取的plist文件根据实际需要更改   
